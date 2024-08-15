@@ -6,7 +6,7 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-      "128": "./assets/images/icon.webp"
+      "128": "./assets/images/icon.png"
     }
   },
   "content_scripts": [
@@ -16,6 +16,6 @@
     }
   ],
   "icons": {
-    "128": "./assets/images/icon.webp"
+    "128": "./assets/images/icon.png"
   }
 }
