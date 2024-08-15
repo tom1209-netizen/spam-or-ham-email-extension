@@ -5,7 +5,7 @@ instance/*
 .env
 
 # Mac junk
-.DS_Store
+**/.DS_Store
 
 # Idea junk
 .idea
