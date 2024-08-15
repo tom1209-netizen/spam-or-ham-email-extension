@@ -4,3 +4,11 @@ instance/*
 .webassets-cache
 .env
 
+# Mac junk
+.DS_Store
+
+# Idea junk
+.idea
+*.iml
+
+
