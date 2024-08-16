@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from model.spam_detector import SpamDetector
 from utils import load_dictionary, load_label_encoder, predict
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the saved model
 model_path = './saved_models/model.pkl'
