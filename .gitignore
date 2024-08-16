@@ -11,4 +11,7 @@ instance/*
 .idea
 *.iml
 
+# Ignore all the pycache directories
+**/__pycache__/
+
 
