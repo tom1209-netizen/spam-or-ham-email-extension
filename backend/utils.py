@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
-from backend.model.data_preprocessing import preprocess_text
-from backend.model.feature_extraction import create_features
+from model.data_preprocessing import preprocess_text
+from model.feature_extraction import create_features
 
 
 def load_dictionary(file_path):
