@@ -14,4 +14,6 @@ instance/*
 # Ignore all the pycache directories
 **/__pycache__/
 
+.venv/
+
 
