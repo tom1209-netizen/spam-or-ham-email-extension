@@ -18,6 +18,7 @@ body {
     margin-bottom: 20px;
     color: firebrick;
     font-weight: bold;
+    text-align: center;
 }
 
 .container > #content {
@@ -32,11 +33,18 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.prediction > h2 {
+    text-align: center;
+}
+
 .prediction > div {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     background-color: darkred;
+
+    display: flex;
+    justify-content: center;
 }
 
 .prediction > div > span {
